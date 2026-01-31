@@ -1,12 +1,12 @@
 ---
-title: Cheatsheet / Niri / Keybind
+title: Niri / Keybind
 nav_order: 9010
 has_children: false
 parent: Cheatsheet
 ---
 
 
-# Cheatsheet / Niri / Keybind
+# Niri / Keybind
 
 
 

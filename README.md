@@ -19,6 +19,8 @@
 
 ## Script
 
+> [Niri / Keybind / Cheatsheet](https://samwhelp.github.io/niri-adjustment/read/cheatsheet/keybind.html)
+
 | Script |
 | ------ |
 | [Niri Config](https://github.com/samwhelp/niri-adjustment/tree/main/prototype/main/niri-config/part/Main) |
