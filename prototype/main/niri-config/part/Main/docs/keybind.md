@@ -7,6 +7,7 @@
 
 ## Subject
 
+* [Config File](#config-file)
 * [System](#system)
 * [Overview](#overview)
 * [Application](#application)
@@ -16,6 +17,18 @@
 * [Screenshot](#screenshot)
 * [Brightness](#brightness)
 * [Volume](#volume)
+
+
+
+
+## Config File
+
+| Config File |
+| ----------- |
+| [~/.config/niri/config.kdl](https://github.com/samwhelp/niri-adjustment/blob/main/prototype/main/niri-config/part/Main/asset/overlay/etc/skel/.config/niri/config.kdl) |
+| [~/.config/niri/section/profile/main/init.kdl](https://github.com/samwhelp/niri-adjustment/blob/main/prototype/main/niri-config/part/Main/asset/overlay/etc/skel/.config/niri/section/profile/main/init.kdl) |
+| [~/.config/niri/section/skeleton/main/skel.kdl](https://github.com/samwhelp/niri-adjustment/blob/main/prototype/main/niri-config/part/Main/asset/overlay/etc/skel/.config/niri/section/skeleton/main/skel.kdl) |
+| [~/.config/niri/section/profile/main/keybind.kdl](https://github.com/samwhelp/niri-adjustment/blob/main/prototype/main/niri-config/part/Main/asset/overlay/etc/skel/.config/niri/section/profile/main/keybind.kdl) |
 
 
 
