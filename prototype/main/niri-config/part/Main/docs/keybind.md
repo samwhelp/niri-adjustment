@@ -8,6 +8,7 @@
 ## Subject
 
 * [System](#system)
+* [Overview](#overview)
 * [Application](#application)
 * [Window](#window)
 * [Workspace](#workspace)
@@ -41,6 +42,16 @@
 | `Alt + Ctrl + p`           | Monitors Power Off          | `power-off-monitors`                  |
 
 > run `yay -Sy --needed swaylock` to install `swaylock`
+
+
+
+
+## Overview
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + v`                | Workspace Overview          | `toggle-overview`                     |
+| `Alt + Shift + /`          | Hotkey Tips                 | `show-hotkey-overlay`                 |
 
 
 
@@ -230,6 +241,20 @@
 | `Super + Shift + 7`        | Window MoveTo Workspace 7   | `move-column-to-workspace 7`          |
 | `Super + Shift + 8`        | Window MoveTo Workspace 8   | `move-column-to-workspace 8`          |
 | `Super + Shift + 9`        | Window MoveTo Workspace 9   | `move-column-to-workspace 9`          |
+
+
+### Workspace / Focus
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Alt + a`                  | Workspace Focus Prev        | `focus-workspace-up`                  |
+| `Alt + s`                  | Workspace Focus Next        | `focus-workspace-down`                |
+
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Alt + WheelScrollUp`      | Workspace Focus Prev        | `focus-workspace-up`                  |
+| `Alt + WheelScrollDown`    | Workspace Focus Next        | `focus-workspace-down`                |
 
 
 
