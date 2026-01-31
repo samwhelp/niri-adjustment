@@ -191,7 +191,7 @@ binds {
 
 
 	//
-	// ## Workspace / Spec
+	// ## Workspace / Specific
 	//
 
 	Super+1 { focus-workspace 1; }
