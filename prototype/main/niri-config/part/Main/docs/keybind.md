@@ -9,6 +9,7 @@
 
 * [System](#system)
 * [Application](#application)
+* [Window](#window)
 * [Screenshot](#screenshot)
 * [Brightness](#brightness)
 * [Volume](#volume)
@@ -18,25 +19,25 @@
 
 ## System
 
-| Keybind                | Action                     | Command                             |
-| ---------------------- | -------------------------- | ----------------------------------- |
-| `Alt + Shift + x`      | Exit                       | `wlogout`                           |
-| `Alt + Ctrl + x`       | Logout                     | `quit`                              |
-| `Alt + Ctrl + Delete`  | Logout                     | `quit`                              |
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Alt + Shift + x`          | Exit                        | spawn `wlogout`                       |
+| `Alt + Ctrl + x`           | Logout                      | `quit`                                |
+| `Alt + Ctrl + Delete`      | Logout                      | `quit`                                |
 
 > run `yay -Sy --needed wlogout` to install `wlogout`
 
 
-| Keybind                | Action                     | Command                             |
-| ---------------------- | -------------------------- | ----------------------------------- |
-| `Alt + Shift + z`      | Lock                       | `swaylock`                          |
-| `Alt + Ctrl + z`       | Monitors Power Off         | `power-off-monitors`                |
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Alt + Shift + z`          | Lock                        | spawn `swaylock`                      |
+| `Alt + Ctrl + z`           | Monitors Power Off          | `power-off-monitors`                  |
 
 
-| Keybind                | Action                     | Command                             |
-| ---------------------- | -------------------------- | ----------------------------------- |
-| `Alt + Ctrl + l`       | Lock                       | `swaylock`                          |
-| `Alt + Ctrl + p`       | Monitors Power Off         | `power-off-monitors`                |
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Alt + Ctrl + l`           | Lock                        | spawn `swaylock`                      |
+| `Alt + Ctrl + p`           | Monitors Power Off          | `power-off-monitors`                  |
 
 > run `yay -Sy --needed swaylock` to install `swaylock`
 
@@ -48,59 +49,75 @@
 
 ### Application / Launcher
 
-| Keybind              | Action                     | Command                             |
-| -------------------- | -------------------------- | ----------------------------------- |
-| `Alt + Shift + d`    | Launcher drun              | `rofi -show drun`                   |
-| `Alt + Shift + r`    | Launcher run               | `rofi -show run`                    |
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Alt + Shift + d`          | Launcher drun               | spawn `rofi -show drun`               |
+| `Alt + Shift + r`          | Launcher run                | spawn `rofi -show run`                |
 
 
 ### Application / Terminal
 
-| Keybind              | Action                     | Command                             |
-| -------------------- | -------------------------- | ----------------------------------- |
-| `Alt + Enter`        | Terminal                   | `xfce4-terminal`                    |
-| `Alt + Shift + a`    | Terminal                   | `xfce4-terminal`                    |
-| `Alt + Ctrl + a`     | Terminal                   | `foot`                              |
-| `Alt + Shift + t`    | Terminal                   | `sakura`                            |
-| `Alt + Ctrl + t`     | Terminal                   | `kitty`                             |
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Alt + Enter`              | Terminal                    | spawn `xfce4-terminal`                |
+| `Alt + Shift + a`          | Terminal                    | spawn `xfce4-terminal`                |
+| `Alt + Ctrl + a`           | Terminal                    | spawn `foot`                          |
+| `Alt + Shift + t`          | Terminal                    | spawn `sakura`                        |
+| `Alt + Ctrl + t`           | Terminal                    | spawn `kitty`                         |
 
 
 ### Application / Favorite
 
-| Keybind              | Action                     | Command                             |
-| -------------------- | -------------------------- | ----------------------------------- |
-| `Alt + Shift + f`    | File Manager               | `thunar`                            |
-| `Alt + Shift + g`    | File Manager               | `pcmanfm`                           |
-| `Alt + Shift + e`    | Text Editor                | `mousepad`                          |
-| `Alt + Shift + b`    | Web Browser                | `firefox --new-tab about:blank`     |
-| `Alt + Shift + v`    | Volume Control             | `pavucontrol`                       |
-| `Alt + Shift + n`    | Network Connection         | `kitty --class 'nmtui' --title 'Network Settings' nmtui`  |
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Alt + Shift + f`          | File Manager                | spawn `thunar`                        |
+| `Alt + Shift + g`          | File Manager                | spawn `pcmanfm`                       |
+| `Alt + Shift + e`          | Text Editor                 | spawn `mousepad`                      |
+| `Alt + Shift + b`          | Web Browser                 | spawn `firefox --new-tab about:blank` |
+| `Alt + Shift + v`          | Volume Control              | spawn `pavucontrol`                   |
+| `Alt + Shift + n`          | Network Connection          | spawn `kitty --class 'nmtui' --title 'Network Settings' nmtui`  |
 
 
 
 
+## Window
 
+
+### Window / Close
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + q`                | Window Close                | `close-window`                        |
+| `Alt + F4`                 | Window Close                | `close-window`                        |
+
+
+### Window / Fullscreen
+
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + f`                | Window Toggle Fullscreen    | `fullscreen-window`                   |
 
 
 
 
 ## Screenshot
 
-| Keybind              | Action                     | Command                             |
-| -------------------- | -------------------------- | ----------------------------------- |
-| `Print`              | Screenshot Fullscreen      | `screenshot-screen`                 |
-| `Super + Print`      | Screenshot Window          | `screenshot-window`                 |
-| `Ctrl + Print`       | Screenshot Region          | `screenshot`                        |
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Print`                    | Screenshot Fullscreen       | `screenshot-screen`                   |
+| `Super + Print`            | Screenshot Window           | `screenshot-window`                   |
+| `Ctrl + Print`             | Screenshot Region           | `screenshot`                          |
 
 
 
 
 ## Brightness
 
-| Keybind                  | Action                     | Command                             |
-| ------------------------ | -------------------------- | ----------------------------------- |
-| `XF86MonBrightnessDown`  | Brightness Up              | `brightnessctl set +5%`             |
-| `XF86MonBrightnessUp`    | Brightness Down            | `brightnessctl set 5%-`             |
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `XF86MonBrightnessDown`    | Brightness Up               | spawn `brightnessctl set +5%`         |
+| `XF86MonBrightnessUp`      | Brightness Down             | spawn `brightnessctl set 5%-`         |
 
 > run `sudo pacman -Sy --needed brightnessctl` to install `brightnessctl`
 
@@ -109,10 +126,10 @@
 
 ## Volume
 
-| Keybind                   | Action                     | Command                             |
-| ------------------------- | -------------------------- | ----------------------------------- |
-| `XF86AudioMute`           | Volume Mute                | `pamixer --toggle-mute`             |
-| `XF86AudioRaiseVolume`    | Volume Up                  | `pamixer -i 5`                      |
-| `XF86AudioLowerVolume`    | Volume Down                | `pamixer -d 5`                      |
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `XF86AudioMute`            | Volume Mute                 | spawn `pamixer --toggle-mute`         |
+| `XF86AudioRaiseVolume`     | Volume Up                   | spawn `pamixer -i 5`                  |
+| `XF86AudioLowerVolume`     | Volume Down                 | spawn `pamixer -d 5`                  |
 
 > run `sudo pacman -Sy --needed pamixer` to install `pamixer`
