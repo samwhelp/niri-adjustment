@@ -31,8 +31,11 @@
 ### niri
 
 | Config File Path |
-| --- |
+| ---------------- |
 | [~/.config/niri/config.kdl](./asset/overlay/etc/skel/.config/niri/config.kdl) |
+| [~/.config/niri/section/profile/main/init.kdl](./asset/overlay/etc/skel/.config/niri/section/profile/main/init.kdl) |
+| [~/.config/niri/section/skeleton/main/skel.kdl](./asset/overlay/etc/skel/.config/niri/section/skeleton/main/skel.kdl) |
+| [~/.config/niri/section/profile/main/keybind.kdl](./asset/overlay/etc/skel/.config/niri/section/profile/main/keybind.kdl) |
 
 
 ### wallpaper
