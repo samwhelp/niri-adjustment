@@ -131,6 +131,36 @@
 | `Super + z`                | Window Focus                | `switch-focus-between-floating-and-tiling`    |
 
 
+### Window / Focus
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + a`                | Window Focus Prev           | `focus-column-left`                   |
+| `Super + s`                | Window Focus Next           | `focus-column-right`                  |
+
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + Up`               | Window Focus Prev           | `focus-window-up`                     |
+| `Super + Down`             | Window Focus Next           | `focus-window-down`                   |
+| `Super + Left`             | Window Focus Prev           | `focus-column-left`                   |
+| `Super + Right`            | Window Focus Next           | `focus-column-right`                  |
+
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + k`                | Window Focus Prev           | `focus-window-up`                     |
+| `Super + j`                | Window Focus Next           | `focus-window-down`                   |
+| `Super + h`                | Window Focus Prev           | `focus-column-left`                   |
+| `Super + l`                | Window Focus Next           | `focus-column-right`                  |
+
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + WheelScrollDown`  | Window Focus Prev           | `focus-column-left`                   |
+| `Super + WheelScrollUp`    | Window Focus Next           | `focus-column-right`                  |
+
+
 
 
 ## Screenshot
