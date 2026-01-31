@@ -246,7 +246,7 @@ binds {
 
 
 	//
-	// ## Workspace / Window Move
+	// ## Workspace / Window MoveTo
 	//
 
 	Super+Shift+a { move-column-to-workspace-up; }

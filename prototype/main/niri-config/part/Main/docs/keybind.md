@@ -257,6 +257,34 @@
 | `Alt + WheelScrollDown`    | Workspace Focus Next        | `focus-workspace-down`                |
 
 
+### Workspace / Swap
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + Ctrl + a`         | Workspace Swap Prev         | `move-workspace-up`                   |
+| `Super + Ctrl + s`         | Workspace Swap Next         | `move-workspace-down`                 |
+
+
+| Keybind                           | Action                      | Command                               |
+| --------------------------------- | --------------------------- | ------------------------------------- |
+| `Alt + Ctrl + WheelScrollUp`      | Workspace Swap Prev         | `move-workspace-up`                   |
+| `Alt + Ctrl + WheelScrollDown`    | Workspace Swap Next         | `move-workspace-down`                 |
+
+
+### Workspace / Window MoveTo
+
+| Keybind                    | Action                               | Command                                       |
+| -------------------------- | ------------------------------------ | --------------------------------------------- |
+| `Super + Shift + a`        | Window MoveTo Workspace Prev         | `move-column-to-workspace-up`                 |
+| `Super + Shift + s`        | Window MoveTo Workspace Next         | `move-column-to-workspace-down`               |
+
+
+| Keybind                            | Action                               | Command                               |
+| ---------------------------------- | ------------------------------------ | ------------------------------------- |
+| `Alt + Shift + WheelScrollUp`      | Window MoveTo Workspace Prev         | `move-column-to-workspace-up`         |
+| `Alt + Shift + WheelScrollDown`    | Window MoveTo Workspace Next         | `move-column-to-workspace-down`       |
+
+
 
 
 ## Screenshot
