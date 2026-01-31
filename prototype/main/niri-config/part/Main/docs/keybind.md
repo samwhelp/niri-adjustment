@@ -12,6 +12,7 @@
 * [Application](#application)
 * [Window](#window)
 * [Workspace](#workspace)
+* [Column](#column)
 * [Screenshot](#screenshot)
 * [Brightness](#brightness)
 * [Volume](#volume)
@@ -180,6 +181,8 @@
 | `Super + grave`            | Window Swap Prev           | `move-column-left`                     |
 | `Super + Tab`              | Window Swap Next           | `move-column-right`                    |
 
+> grave means `
+
 
 | Keybind                    | Action                      | Command                               |
 | -------------------------- | --------------------------- | ------------------------------------- |
@@ -283,6 +286,29 @@
 | ---------------------------------- | ------------------------------------ | ------------------------------------- |
 | `Alt + Shift + WheelScrollUp`      | Window MoveTo Workspace Prev         | `move-column-to-workspace-up`         |
 | `Alt + Shift + WheelScrollDown`    | Window MoveTo Workspace Next         | `move-column-to-workspace-down`       |
+
+
+
+
+## Column
+
+### Column / Window Move
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + BracketLeft`      | Window MoveTo Column        | `consume-or-expel-window-left`        |
+| `Super + BracketRight`     | Window MoveTo Column        | `consume-or-expel-window-right`        |
+
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + Comma`            | Window MoveTo Column        | `consume-window-into-column`        |
+| `Super + Period`           | Window MoveTo Column        | `expel-window-from-column`        |
+
+* BracketLeft  means [ ({)
+* BracketRight means ] (})
+* Comma        means , (<)
+* Period       means . (>)
 
 
 
