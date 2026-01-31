@@ -4,10 +4,14 @@
 
 
 
+
 ## Subject
 
 * [System](#system)
 * [Application](#application)
+* [Screenshot](#screenshot)
+* [Brightness](#brightness)
+* [Volume](#volume)
 
 
 
@@ -35,3 +39,42 @@
 | `Alt + Ctrl + p`       | Monitors Power Off         | `power-off-monitors`                |
 
 > run `yay -Sy --needed swaylock` to install `swaylock`
+
+
+
+
+
+
+
+## Screenshot
+
+| Keybind              | Action                     | Command                             |
+| -------------------- | -------------------------- | ----------------------------------- |
+| `Print`              | Screenshot Fullscreen      | `screenshot-screen`                 |
+| `Super + Print`      | Screenshot Window          | `screenshot-window`                 |
+| `Ctrl + Print`       | Screenshot Region          | `screenshot`                        |
+
+
+
+
+## Brightness
+
+| Keybind                  | Action                     | Command                             |
+| ------------------------ | -------------------------- | ----------------------------------- |
+| `XF86MonBrightnessDown`  | Brightness Up              | `brightnessctl set +5%`             |
+| `XF86MonBrightnessUp`    | Brightness Down            | `brightnessctl set 5%-`             |
+
+> run `sudo pacman -Sy --needed brightnessctl` to install `brightnessctl`
+
+
+
+
+## Volume
+
+| Keybind                   | Action                     | Command                             |
+| ------------------------- | -------------------------- | ----------------------------------- |
+| `XF86AudioMute`           | Volume Mute                | `pamixer --toggle-mute`             |
+| `XF86AudioRaiseVolume`    | Volume Up                  | `pamixer -i 5`                      |
+| `XF86AudioLowerVolume`    | Volume Down                | `pamixer -d 5`                      |
+
+> run `sudo pacman -Sy --needed pamixer` to install `pamixer`
