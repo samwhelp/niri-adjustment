@@ -297,13 +297,13 @@
 | Keybind                    | Action                      | Command                               |
 | -------------------------- | --------------------------- | ------------------------------------- |
 | `Super + BracketLeft`      | Window MoveTo Column        | `consume-or-expel-window-left`        |
-| `Super + BracketRight`     | Window MoveTo Column        | `consume-or-expel-window-right`        |
+| `Super + BracketRight`     | Window MoveTo Column        | `consume-or-expel-window-right`       |
 
 
 | Keybind                    | Action                      | Command                               |
 | -------------------------- | --------------------------- | ------------------------------------- |
-| `Super + Comma`            | Window MoveTo Column        | `consume-window-into-column`        |
-| `Super + Period`           | Window MoveTo Column        | `expel-window-from-column`        |
+| `Super + Comma`            | Window MoveTo Column        | `consume-window-into-column`          |
+| `Super + Period`           | Window MoveTo Column        | `expel-window-from-column`            |
 
 * BracketLeft  means [ ({)
 * BracketRight means ] (})
