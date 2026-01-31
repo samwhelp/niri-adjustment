@@ -10,6 +10,7 @@
 * [System](#system)
 * [Application](#application)
 * [Window](#window)
+* [Workspace](#workspace)
 * [Screenshot](#screenshot)
 * [Brightness](#brightness)
 * [Volume](#volume)
@@ -196,6 +197,39 @@
 | Keybind                    | Action                      | Command                               |
 | -------------------------- | --------------------------- | ------------------------------------- |
 | `Super + c`                | Window Move                 | `center-column`                       |
+
+
+
+
+## Workspace
+
+
+### Workspace / Specific
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + 1`                | Workspace Focus 1           | `focus-workspace 1`                   |
+| `Super + 2`                | Workspace Focus 2           | `focus-workspace 2`                   |
+| `Super + 3`                | Workspace Focus 3           | `focus-workspace 3`                   |
+| `Super + 4`                | Workspace Focus 4           | `focus-workspace 4`                   |
+| `Super + 5`                | Workspace Focus 5           | `focus-workspace 5`                   |
+| `Super + 6`                | Workspace Focus 6           | `focus-workspace 6`                   |
+| `Super + 7`                | Workspace Focus 7           | `focus-workspace 7`                   |
+| `Super + 8`                | Workspace Focus 8           | `focus-workspace 8`                   |
+| `Super + 9`                | Workspace Focus 9           | `focus-workspace 9`                   |
+
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + Shift + 1`        | Window MoveTo Workspace 1   | `move-column-to-workspace 1`          |
+| `Super + Shift + 2`        | Window MoveTo Workspace 2   | `move-column-to-workspace 2`          |
+| `Super + Shift + 3`        | Window MoveTo Workspace 3   | `move-column-to-workspace 3`          |
+| `Super + Shift + 4`        | Window MoveTo Workspace 4   | `move-column-to-workspace 4`          |
+| `Super + Shift + 5`        | Window MoveTo Workspace 5   | `move-column-to-workspace 5`          |
+| `Super + Shift + 6`        | Window MoveTo Workspace 6   | `move-column-to-workspace 6`          |
+| `Super + Shift + 7`        | Window MoveTo Workspace 7   | `move-column-to-workspace 7`          |
+| `Super + Shift + 8`        | Window MoveTo Workspace 8   | `move-column-to-workspace 8`          |
+| `Super + Shift + 9`        | Window MoveTo Workspace 9   | `move-column-to-workspace 9`          |
 
 
 
