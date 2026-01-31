@@ -311,6 +311,25 @@
 * Period       means . (>)
 
 
+### Column / Window Resize
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + w`                | Window Maximize             | `maximize-column`                     |
+
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + Shift + w`        | Window Maximize Width       | `expand-column-to-available-width`    |
+| `Super + Ctrl + w`         | Window Maximize Height      | `reset-window-height`                 |
+
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + Shift + f`        | Window Resize Width         | `switch-preset-column-width`          |
+| `Super + Ctrl + f`         | Window Resize Height        | `switch-preset-window-height`         |
+
+
 
 
 ## Screenshot
