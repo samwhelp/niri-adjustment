@@ -116,6 +116,21 @@
 | `Super + Ctrl + l`         | Window Resize               | `set-column-width "+5%"`              |
 
 
+### Window / Tabbed
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + t`                | Window Tabbed               | `toggle-column-tabbed-display`        |
+
+
+### Window / Floating or Tiling
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + Escape`           | Window Toggle Floating      | `toggle-window-floating`              |
+| `Super + z`                | Window Focus                | `switch-focus-between-floating-and-tiling`    |
+
+
 
 
 ## Screenshot
