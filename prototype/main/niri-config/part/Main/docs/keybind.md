@@ -191,6 +191,13 @@
 | `Super + Shift + WheelScrollUp`    | Window Swap Next            | `move-column-right`                   |
 
 
+### Window / Move
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + c`                | Window Move                 | `center-column`                       |
+
+
 
 
 ## Screenshot
