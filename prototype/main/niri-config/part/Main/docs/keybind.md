@@ -93,10 +93,27 @@
 
 ### Window / Fullscreen
 
-
 | Keybind                    | Action                      | Command                               |
 | -------------------------- | --------------------------- | ------------------------------------- |
 | `Super + f`                | Window Toggle Fullscreen    | `fullscreen-window`                   |
+
+
+### Window / Resize
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + Ctrl + Up`        | Window Resize               | `set-window-height "-5%"`             |
+| `Super + Ctrl + Down`      | Window Resize               | `set-window-height "+5%"`             |
+| `Super + Ctrl + Left`      | Window Resize               | `set-column-width "-5%"`              |
+| `Super + Ctrl + Right`     | Window Resize               | `set-column-width "+5%"`              |
+
+
+| Keybind                    | Action                      | Command                               |
+| -------------------------- | --------------------------- | ------------------------------------- |
+| `Super + Ctrl + k`         | Window Resize               | `set-window-height "-5%"`             |
+| `Super + Ctrl + j`         | Window Resize               | `set-window-height "+5%"`             |
+| `Super + Ctrl + h`         | Window Resize               | `set-column-width "-5%"`              |
+| `Super + Ctrl + l`         | Window Resize               | `set-column-width "+5%"`              |
 
 
 
