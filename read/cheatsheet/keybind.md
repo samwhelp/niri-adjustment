@@ -35,6 +35,7 @@ parent: Cheatsheet
 | [~/.config/niri/section/profile/main/init.kdl](https://github.com/samwhelp/niri-adjustment/blob/main/prototype/main/niri-config/part/Main/asset/overlay/etc/skel/.config/niri/section/profile/main/init.kdl) |
 | [~/.config/niri/section/skeleton/main/skel.kdl](https://github.com/samwhelp/niri-adjustment/blob/main/prototype/main/niri-config/part/Main/asset/overlay/etc/skel/.config/niri/section/skeleton/main/skel.kdl) |
 | [~/.config/niri/section/profile/main/keybind.kdl](https://github.com/samwhelp/niri-adjustment/blob/main/prototype/main/niri-config/part/Main/asset/overlay/etc/skel/.config/niri/section/profile/main/keybind.kdl) |
+| [~/.config/niri/autostart](https://github.com/samwhelp/niri-adjustment/blob/main/prototype/main/niri-config/part/Main/asset/overlay/etc/skel/.config/niri/autostart) |
 
 
 
