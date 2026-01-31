@@ -383,12 +383,3 @@ parent: Cheatsheet
 | `XF86AudioLowerVolume`     | Volume Down                 | spawn `pamixer -d 5`                  |
 
 > run `sudo pacman -Sy --needed pamixer` to install `pamixer`
-
-
-
-
-## 相關連結
-
-| 相關連結 |
-| ------- |
-| [鍵盤按鍵綁定](https://samwhelp.github.io/note-about-niri/read/config/keybind.html) |
