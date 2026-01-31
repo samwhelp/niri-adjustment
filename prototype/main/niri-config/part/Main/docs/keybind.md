@@ -43,6 +43,44 @@
 
 
 
+## Application
+
+
+### Application / Launcher
+
+| Keybind              | Action                     | Command                             |
+| -------------------- | -------------------------- | ----------------------------------- |
+| `Alt + Shift + d`    | Launcher drun              | `rofi -show drun`                   |
+| `Alt + Shift + r`    | Launcher run               | `rofi -show run`                    |
+
+
+### Application / Terminal
+
+| Keybind              | Action                     | Command                             |
+| -------------------- | -------------------------- | ----------------------------------- |
+| `Alt + Enter`        | Terminal                   | `xfce4-terminal`                    |
+| `Alt + Shift + a`    | Terminal                   | `xfce4-terminal`                    |
+| `Alt + Ctrl + a`     | Terminal                   | `foot`                              |
+| `Alt + Shift + t`    | Terminal                   | `sakura`                            |
+| `Alt + Ctrl + t`     | Terminal                   | `kitty`                             |
+
+
+### Application / Favorite
+
+| Keybind              | Action                     | Command                             |
+| -------------------- | -------------------------- | ----------------------------------- |
+| `Alt + Shift + f`    | File Manager               | `thunar`                            |
+| `Alt + Shift + g`    | File Manager               | `pcmanfm`                           |
+| `Alt + Shift + e`    | Text Editor                | `mousepad`                          |
+| `Alt + Shift + b`    | Web Browser                | `firefox --new-tab about:blank`     |
+| `Alt + Shift + v`    | Volume Control             | `pavucontrol`                       |
+| `Alt + Shift + n`    | Network Connection         | `kitty --class 'nmtui' --title 'Network Settings' nmtui`  |
+
+
+
+
+
+
 
 
 
