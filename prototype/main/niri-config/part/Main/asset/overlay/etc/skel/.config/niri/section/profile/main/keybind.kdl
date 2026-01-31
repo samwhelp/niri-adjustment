@@ -150,6 +150,7 @@ binds {
 	Super+h { focus-column-left; }
 	Super+l { focus-column-right; }
 
+
 	Super+WheelScrollDown cooldown-ms=150 { focus-column-left; }
 	Super+WheelScrollUp cooldown-ms=150 { focus-column-right; }
 
@@ -172,6 +173,10 @@ binds {
 	Super+Shift+j { move-window-down; }
 	Super+Shift+h { move-column-left; }
 	Super+Shift+l { move-column-right; }
+
+
+	Super+Shift+WheelScrollDown cooldown-ms=150 { move-column-left; }
+	Super+Shift+WheelScrollUp cooldown-ms=150 { move-column-right; }
 
 
 

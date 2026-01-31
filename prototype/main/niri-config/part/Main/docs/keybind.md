@@ -131,34 +131,28 @@
 | `Super + z`                | Window Focus                | `switch-focus-between-floating-and-tiling`    |
 
 
-### Window / Focus
+### Window / Swap
 
 | Keybind                    | Action                      | Command                               |
 | -------------------------- | --------------------------- | ------------------------------------- |
-| `Super + a`                | Window Focus Prev           | `focus-column-left`                   |
-| `Super + s`                | Window Focus Next           | `focus-column-right`                  |
-
-
-| Keybind                    | Action                      | Command                               |
-| -------------------------- | --------------------------- | ------------------------------------- |
-| `Super + Up`               | Window Focus Prev           | `focus-window-up`                     |
-| `Super + Down`             | Window Focus Next           | `focus-window-down`                   |
-| `Super + Left`             | Window Focus Prev           | `focus-column-left`                   |
-| `Super + Right`            | Window Focus Next           | `focus-column-right`                  |
+| `Super + grave`            | Window Swap Prev           | `move-column-left`                     |
+| `Super + Tab`              | Window Swap Next           | `move-column-right`                    |
 
 
 | Keybind                    | Action                      | Command                               |
 | -------------------------- | --------------------------- | ------------------------------------- |
-| `Super + k`                | Window Focus Prev           | `focus-window-up`                     |
-| `Super + j`                | Window Focus Next           | `focus-window-down`                   |
-| `Super + h`                | Window Focus Prev           | `focus-column-left`                   |
-| `Super + l`                | Window Focus Next           | `focus-column-right`                  |
+| `Super + Shift + Up`       | Window Swap Prev            | `move-window-up`                      |
+| `Super + Shift + Down`     | Window Swap Next            | `move-window-down`                    |
+| `Super + Shift + Left`     | Window Swap Prev            | `move-column-left`                    |
+| `Super + Shift + Right`    | Window Swap Next            | `move-column-right`                   |
 
 
 | Keybind                    | Action                      | Command                               |
 | -------------------------- | --------------------------- | ------------------------------------- |
-| `Super + WheelScrollDown`  | Window Focus Prev           | `focus-column-left`                   |
-| `Super + WheelScrollUp`    | Window Focus Next           | `focus-column-right`                  |
+| `Super + Shift + k`        | Window Swap Prev            | `move-window-up`                      |
+| `Super + Shift + j`        | Window Swap Next            | `move-window-down`                    |
+| `Super + Shift + h`        | Window Swap Prev            | `move-column-left`                    |
+| `Super + Shift + l`        | Window Swap Next            | `move-column-right`                   |
 
 
 
