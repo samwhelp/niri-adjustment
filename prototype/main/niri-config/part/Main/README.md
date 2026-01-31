@@ -36,6 +36,7 @@
 | [~/.config/niri/section/profile/main/init.kdl](./asset/overlay/etc/skel/.config/niri/section/profile/main/init.kdl) |
 | [~/.config/niri/section/skeleton/main/skel.kdl](./asset/overlay/etc/skel/.config/niri/section/skeleton/main/skel.kdl) |
 | [~/.config/niri/section/profile/main/keybind.kdl](./asset/overlay/etc/skel/.config/niri/section/profile/main/keybind.kdl) |
+| [~/.config/niri/autostart](./asset/overlay/etc/skel/.config/niri/autostart) |
 
 
 ### wallpaper
