@@ -37,8 +37,11 @@
 
 | Link | GitHub |
 | ---- | ------ |
-| [System Modeling](https://samwhelp.github.io/system-modeling/) | [GitHub](https://github.com/samwhelp/system-modeling) |
+| [Wayland Adjustment](https://samwhelp.github.io/wayland-adjustment/) | [GitHub](https://github.com/samwhelp/wayland-adjustment) |
 | [Hyprland Adjustment](https://samwhelp.github.io/hyprland-adjustment/) | [GitHub](https://github.com/samwhelp/hyprland-adjustment) |
+| [Mangowc Adjustment](https://samwhelp.github.io/mangowc-adjustment/) | [GitHub](https://github.com/samwhelp/mangowc-adjustment) |
+| [River Adjustment](https://samwhelp.github.io/riverwm-adjustment/) | [GitHub](https://github.com/samwhelp/riverwm-adjustment) |
+| [Sway Adjustment](https://samwhelp.github.io/sway-adjustment/) | [GitHub](https://github.com/samwhelp/sway-adjustment) |
 
 
 
