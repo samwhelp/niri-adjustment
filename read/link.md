@@ -12,7 +12,8 @@ has_children: true
 
 | Niri |
 | ---- |
-| GitHub / [niri](https://github.com/niri-wm/) |
+| [Niri](https://niri-wm.github.io/niri/) |
+| GitHub / [niri](https://github.com/niri-wm/niri) |
 | [/usr/share/doc/niri/default-config.kdl](https://github.com/niri-wm/niri/blob/main/resources/default-config.kdl) |
 | GitHub / [@YaLTeR](https://github.com/YaLTeR) |
 
