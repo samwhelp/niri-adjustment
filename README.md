@@ -39,7 +39,7 @@
 | ---- | ------ |
 | [Wayland Adjustment](https://samwhelp.github.io/wayland-adjustment/) | [GitHub](https://github.com/samwhelp/wayland-adjustment) |
 | [Hyprland Adjustment](https://samwhelp.github.io/hyprland-adjustment/) | [GitHub](https://github.com/samwhelp/hyprland-adjustment) |
-| [Mangowc Adjustment](https://samwhelp.github.io/mangowc-adjustment/) | [GitHub](https://github.com/samwhelp/mangowc-adjustment) |
+| [Mangowm Adjustment](https://samwhelp.github.io/mangowm-adjustment/) | [GitHub](https://github.com/samwhelp/mangowm-adjustment) |
 | [River Adjustment](https://samwhelp.github.io/riverwm-adjustment/) | [GitHub](https://github.com/samwhelp/riverwm-adjustment) |
 | [Sway Adjustment](https://samwhelp.github.io/sway-adjustment/) | [GitHub](https://github.com/samwhelp/sway-adjustment) |
 
